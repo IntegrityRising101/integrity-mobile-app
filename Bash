@@ -1,0 +1,8 @@
+# Create a new Expo TypeScript project
+npx create-expo-app@latest integrity-mobile-app --template blank-typescript
+
+# Navigate into the mobile app folder
+cd integrity-mobile-app
+
+# Install native dependencies for OneSignal, Supabase, and Expo Router
+npx expo install react-native-onesignal onesignal-expo-plugin @supabase/supabase-js @react-native-async-storage/async-storage react-native-url-polyfill expo-constants expo-router react-native-safe-area-context react-native-screens
